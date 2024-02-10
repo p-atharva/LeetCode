@@ -1,6 +1,6 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        freqele = {}
+        freqele = dict()
 
         for n in nums:
             if n in freqele:
